@@ -7,7 +7,7 @@ def twoSum(nums, target):
     holding_list = []
     index_list = []
     for num in nums:
-        for step in range(1, len(nums)):
+        for step in range(i, len(nums)):
             sum = num + nums[step]
             holding_list.append(sum)
             if sum == target:
